@@ -57,8 +57,9 @@ class ForecastListViewModel: ObservableObject {
                 }
                 if let lat = placemarks?.first?.location?.coordinate.latitude,
                    let lon = placemarks?.first?.location?.coordinate.longitude {
-                    // Don't forget to use your own key
-                            apiService.getJSON(urlString: "https://api.openweathermap.org/data/2.5/onecall?lat=\(lat)&lon=\(lon)&exclude=current,minutely,hourly,alerts&appid={InsertYourKeyHere}",
+                    // Added my own key here.
+                    
+                            apiService.getJSON(urlString: "https://api.openweathermap.org/data/2.5/onecall?lat=\(lat)&lon=\(lon)&exclude=current,minutely,hourly,alerts&appid=a64d697330d4afff04b363df5d14fa96",
                                                dateDecodingStrategy: .secondsSince1970) { (result: Result<Forecast,APIService.APIError>) in
 
                         switch result {
