@@ -25,7 +25,6 @@
 		0B815CA52CDAA1FE0042AB0F /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C992CDAA1FE0042AB0F /* Forecast.swift */; };
 		0B815CA62CDAA1FE0042AB0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B815C9A2CDAA1FE0042AB0F /* Info.plist */; };
 		0B815CA72CDAA1FE0042AB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */; };
-		0B815CA82CDAA1FE0042AB0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,6 @@
 		0B815C992CDAA1FE0042AB0F /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		0B815C9A2CDAA1FE0042AB0F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +118,6 @@
 			children = (
 				0B815C942CDAA1FE0042AB0F /* APIServiceHandler */,
 				0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */,
-				0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */,
 				0B815C992CDAA1FE0042AB0F /* Forecast.swift */,
 				0B815C912CDAA1FD0042AB0F /* ForecastListViewModel.swift */,
 				0B815C972CDAA1FE0042AB0F /* ForecastViewModel.swift */,
@@ -321,7 +318,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B815C672CDA54820042AB0F /* ContentView.swift in Sources */,
-				0B815CA82CDAA1FE0042AB0F /* ContentView.swift in Sources */,
 				0B815CA22CDAA1FE0042AB0F /* APIService.swift in Sources */,
 				0B815C9D2CDAA1FE0042AB0F /* APIServiceCombine.swift in Sources */,
 				0B815C9E2CDAA1FE0042AB0F /* Mobile_Weather_AppApp.swift in Sources */,
