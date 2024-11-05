@@ -2,7 +2,7 @@
 //  Mobile_Weather_AppApp.swift
 //  Mobile Weather App
 //
-//  Created by Stewart Lynch on 2021-01-18.
+//  Created by Created by Santosh Sugur
 //
 
 import SwiftUI

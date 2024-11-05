@@ -2,8 +2,7 @@
 //  UIApplication+Extension.swift
 //  Mobile Weather App
 //
-//  Created by Stewart Lynch on 2021-01-21.
-//
+//  Created by Santosh Sugur
 
 import UIKit
 

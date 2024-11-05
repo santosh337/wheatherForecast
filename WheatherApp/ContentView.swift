@@ -1,11 +1,10 @@
 //
 //  ContentView.swift
-//  Mobile Weather App
+//  Wheather App
 //
-//  Created by Stewart Lynch on 2021-01-18.
+//  Created by Created by Santosh Sugur
 //
 
-import SDWebImageSwiftUI
 import SwiftUI
 
 struct ContentView: View {
@@ -47,10 +46,10 @@ struct ContentView: View {
                     }
                     List(forecastListVM.forecasts, id: \.day) { day in
                             VStack(alignment: .leading) {
-                                Text(day.day)
+                                Text("\(day.day)")
                                     .fontWeight(.bold)
                                 HStack(alignment: .center) {
-                                    WebImage(url: day.weatherIconURL)
+                                    Image(url: day.weatherIconURL)
                                         .resizable()
                                         .placeholder {
                                             Image(systemName: "hourglass")

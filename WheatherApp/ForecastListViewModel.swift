@@ -2,7 +2,7 @@
 //  ForecastListViewModel.swift
 //  Mobile Weather App
 //
-//  Created by Stewart Lynch on 2021-01-19.
+//  Created by Santosh Sugur
 //
 
 import CoreLocation
