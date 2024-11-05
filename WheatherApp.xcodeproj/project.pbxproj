@@ -14,6 +14,18 @@
 		0B815C762CDA54840042AB0F /* WheatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C752CDA54840042AB0F /* WheatherAppTests.swift */; };
 		0B815C802CDA54840042AB0F /* WheatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C7F2CDA54840042AB0F /* WheatherAppUITests.swift */; };
 		0B815C822CDA54840042AB0F /* WheatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C812CDA54840042AB0F /* WheatherAppUITestsLaunchTests.swift */; };
+		0B815C9D2CDAA1FE0042AB0F /* APIServiceCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C8F2CDAA1FD0042AB0F /* APIServiceCombine.swift */; };
+		0B815C9E2CDAA1FE0042AB0F /* Mobile_Weather_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C902CDAA1FD0042AB0F /* Mobile_Weather_AppApp.swift */; };
+		0B815C9F2CDAA1FE0042AB0F /* ForecastListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C912CDAA1FD0042AB0F /* ForecastListViewModel.swift */; };
+		0B815CA02CDAA1FE0042AB0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B815C922CDAA1FE0042AB0F /* Preview Assets.xcassets */; };
+		0B815CA12CDAA1FE0042AB0F /* WheatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C952CDAA1FE0042AB0F /* WheatherAppApp.swift */; };
+		0B815CA22CDAA1FE0042AB0F /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C962CDAA1FE0042AB0F /* APIService.swift */; };
+		0B815CA32CDAA1FE0042AB0F /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C972CDAA1FE0042AB0F /* ForecastViewModel.swift */; };
+		0B815CA42CDAA1FE0042AB0F /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C982CDAA1FE0042AB0F /* UIApplication+Extension.swift */; };
+		0B815CA52CDAA1FE0042AB0F /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C992CDAA1FE0042AB0F /* Forecast.swift */; };
+		0B815CA62CDAA1FE0042AB0F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B815C9A2CDAA1FE0042AB0F /* Info.plist */; };
+		0B815CA72CDAA1FE0042AB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */; };
+		0B815CA82CDAA1FE0042AB0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		0B815C7B2CDA54840042AB0F /* WheatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B815C7F2CDA54840042AB0F /* WheatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppUITests.swift; sourceTree = "<group>"; };
 		0B815C812CDA54840042AB0F /* WheatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B815C8F2CDAA1FD0042AB0F /* APIServiceCombine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceCombine.swift; sourceTree = "<group>"; };
+		0B815C902CDAA1FD0042AB0F /* Mobile_Weather_AppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mobile_Weather_AppApp.swift; sourceTree = "<group>"; };
+		0B815C912CDAA1FD0042AB0F /* ForecastListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastListViewModel.swift; sourceTree = "<group>"; };
+		0B815C922CDAA1FE0042AB0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B815C952CDAA1FE0042AB0F /* WheatherAppApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheatherAppApp.swift; sourceTree = "<group>"; };
+		0B815C962CDAA1FE0042AB0F /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0B815C972CDAA1FE0042AB0F /* ForecastViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		0B815C982CDAA1FE0042AB0F /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		0B815C992CDAA1FE0042AB0F /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		0B815C9A2CDAA1FE0042AB0F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +118,20 @@
 		0B815C632CDA54820042AB0F /* WheatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B815C942CDAA1FE0042AB0F /* APIServiceHandler */,
+				0B815C9B2CDAA1FE0042AB0F /* Assets.xcassets */,
+				0B815C9C2CDAA1FE0042AB0F /* ContentView.swift */,
+				0B815C992CDAA1FE0042AB0F /* Forecast.swift */,
+				0B815C912CDAA1FD0042AB0F /* ForecastListViewModel.swift */,
+				0B815C972CDAA1FE0042AB0F /* ForecastViewModel.swift */,
+				0B815C9A2CDAA1FE0042AB0F /* Info.plist */,
+				0B815C902CDAA1FD0042AB0F /* Mobile_Weather_AppApp.swift */,
+				0B815C932CDAA1FE0042AB0F /* Preview Content */,
+				0B815C982CDAA1FE0042AB0F /* UIApplication+Extension.swift */,
+				0B815C952CDAA1FE0042AB0F /* WheatherAppApp.swift */,
 				0B815C642CDA54820042AB0F /* WheatherAppApp.swift */,
 				0B815C662CDA54820042AB0F /* ContentView.swift */,
+				0B815C8E2CDA9F530042AB0F /* APIServiceHandler */,
 				0B815C682CDA54840042AB0F /* Assets.xcassets */,
 				0B815C6A2CDA54840042AB0F /* Preview Content */,
 			);
@@ -125,6 +161,30 @@
 				0B815C812CDA54840042AB0F /* WheatherAppUITestsLaunchTests.swift */,
 			);
 			path = WheatherAppUITests;
+			sourceTree = "<group>";
+		};
+		0B815C8E2CDA9F530042AB0F /* APIServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIServiceHandler;
+			sourceTree = "<group>";
+		};
+		0B815C932CDAA1FE0042AB0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B815C922CDAA1FE0042AB0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B815C942CDAA1FE0042AB0F /* APIServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0B815C8F2CDAA1FD0042AB0F /* APIServiceCombine.swift */,
+				0B815C962CDAA1FE0042AB0F /* APIService.swift */,
+			);
+			path = APIServiceHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B815CA62CDAA1FE0042AB0F /* Info.plist in Resources */,
 				0B815C6C2CDA54840042AB0F /* Preview Assets.xcassets in Resources */,
+				0B815CA02CDAA1FE0042AB0F /* Preview Assets.xcassets in Resources */,
 				0B815C692CDA54840042AB0F /* Assets.xcassets in Resources */,
+				0B815CA72CDAA1FE0042AB0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B815C672CDA54820042AB0F /* ContentView.swift in Sources */,
+				0B815CA82CDAA1FE0042AB0F /* ContentView.swift in Sources */,
+				0B815CA22CDAA1FE0042AB0F /* APIService.swift in Sources */,
+				0B815C9D2CDAA1FE0042AB0F /* APIServiceCombine.swift in Sources */,
+				0B815C9E2CDAA1FE0042AB0F /* Mobile_Weather_AppApp.swift in Sources */,
+				0B815CA52CDAA1FE0042AB0F /* Forecast.swift in Sources */,
+				0B815CA42CDAA1FE0042AB0F /* UIApplication+Extension.swift in Sources */,
+				0B815CA12CDAA1FE0042AB0F /* WheatherAppApp.swift in Sources */,
+				0B815CA32CDAA1FE0042AB0F /* ForecastViewModel.swift in Sources */,
 				0B815C652CDA54820042AB0F /* WheatherAppApp.swift in Sources */,
+				0B815C9F2CDAA1FE0042AB0F /* ForecastListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
